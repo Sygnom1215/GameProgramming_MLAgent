@@ -1,27 +1,3 @@
-using Unity.MLAgents.Sensors;
-
-namespace Unity.MLAgents.Extensions.Sensors
-{
-    /// <summary>
-    /// Interface for generating observations from a physical joint or constraint.
-    /// </summary>
-    public interface IJointExtractor
-    {
-        /// <summary>
-        /// Determine the number of observations that would be generated for the particular joint
-        /// using the provided PhysicsSensorSettings.
-        /// </summary>
-        /// <param name="settings"></param>
-        /// <returns>Number of floats that will be written.</returns>
-        int NumObservations(PhysicsSensorSettings settings);
-
-        /// <summary>
-        /// Write the observations to the ObservationWriter, starting at the specified offset.
-        /// </summary>
-        /// <param name="settings"></param>
-        /// <param name="writer"></param>
-        /// <param name="offset"></param>
-        /// <returns>Number of floats that were written.</returns>
-        int Write(PhysicsSensorSettings settings, ObservationWriter writer, int offset);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:da4d629f32795497c886f06ec5ef570758c8ce325b88a1d70abac27d174f3a63
+size 1045

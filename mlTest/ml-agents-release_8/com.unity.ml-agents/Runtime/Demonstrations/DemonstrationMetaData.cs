@@ -1,21 +1,3 @@
-using System;
-using UnityEngine;
-using UnityEngine.Serialization;
-
-namespace Unity.MLAgents.Demonstrations
-{
-    /// <summary>
-    /// Demonstration meta-data.
-    /// Kept in a struct for easy serialization and deserialization.
-    /// </summary>
-    [Serializable]
-    internal class DemonstrationMetaData
-    {
-        [FormerlySerializedAs("numberExperiences")]
-        public int numberSteps;
-        public int numberEpisodes;
-        public float meanReward;
-        public string demonstrationName;
-        public const int ApiVersion = 1;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4018cfc69bee61e866271ad6f0a34ad961323b8181f23b356a505470199fde74
+size 556

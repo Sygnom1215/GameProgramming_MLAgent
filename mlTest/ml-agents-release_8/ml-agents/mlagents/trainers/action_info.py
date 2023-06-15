@@ -1,16 +1,3 @@
-from typing import NamedTuple, Any, Dict, List
-import numpy as np
-from mlagents_envs.base_env import AgentId
-
-ActionInfoOutputs = Dict[str, np.ndarray]
-
-
-class ActionInfo(NamedTuple):
-    action: Any
-    value: Any
-    outputs: ActionInfoOutputs
-    agent_ids: List[AgentId]
-
-    @staticmethod
-    def empty() -> "ActionInfo":
-        return ActionInfo([], [], {}, [])
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb6b97b9358550289f996172c4609953a39068f1bb0a45ea908455ef98506272
+size 369

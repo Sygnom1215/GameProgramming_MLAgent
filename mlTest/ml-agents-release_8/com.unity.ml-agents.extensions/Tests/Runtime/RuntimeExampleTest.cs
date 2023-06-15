@@ -1,21 +1,3 @@
-using UnityEngine;
-using UnityEditor;
-using UnityEngine.TestTools;
-using NUnit.Framework;
-using System.Collections;
-
-namespace Unity.MLAgents.Extensions.Tests
-{
-
-    internal class RuntimeExampleTest
-    {
-
-        [Test]
-        public void RuntimeTestMath()
-        {
-            Assert.AreEqual(2, 1 + 1);
-        }
-
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:92cc73ae6236a1914bcfe8753750c428fad4b993322f07abd703f81ed80e8f31
+size 329

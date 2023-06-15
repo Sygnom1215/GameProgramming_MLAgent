@@ -1,13 +1,3 @@
-import numpy as np
-
-from mlagents.trainers.tf.components.reward_signals import (
-    RewardSignal,
-    RewardSignalResult,
-)
-from mlagents.trainers.buffer import AgentBuffer
-
-
-class ExtrinsicRewardSignal(RewardSignal):
-    def evaluate_batch(self, mini_batch: AgentBuffer) -> RewardSignalResult:
-        env_rews = np.array(mini_batch["environment_rewards"], dtype=np.float32)
-        return RewardSignalResult(self.strength * env_rews, env_rews)
+version https://git-lfs.github.com/spec/v1
+oid sha256:81a364b7478588adf94ab4eddf372ce337700594181af76ffc29d83f68f0ffc3
+size 447

@@ -1,24 +1,3 @@
-### Proposed change(s)
-
-Describe the changes made in this PR.
-
-### Useful links (Github issues, JIRA tickets, ML-Agents forum threads etc.)
-
-
-
-### Types of change(s)
-
-- [ ] Bug fix
-- [ ] New feature
-- [ ] Code refactor
-- [ ] Breaking change
-- [ ] Documentation update
-- [ ] Other (please describe)
-
-### Checklist
-- [ ] Added tests that prove my fix is effective or that my feature works
-- [ ] Updated the [changelog](https://github.com/Unity-Technologies/ml-agents/blob/master/com.unity.ml-agents/CHANGELOG.md) (if applicable)
-- [ ] Updated the [documentation](https://github.com/Unity-Technologies/ml-agents/tree/master/docs) (if applicable)
-- [ ] Updated the [migration guide](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Migrating.md) (if applicable)
-
-### Other comments
+version https://git-lfs.github.com/spec/v1
+oid sha256:142e63b4084788864be79e1fca639fda9bbf85a8d703559b2dab19d459be3dc3
+size 794

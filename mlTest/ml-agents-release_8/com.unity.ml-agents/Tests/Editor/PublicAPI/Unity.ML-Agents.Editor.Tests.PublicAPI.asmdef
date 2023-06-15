@@ -1,26 +1,3 @@
-{
-    "name": "Unity.ML-Agents.Editor.Tests.PublicAPI",
-    "references": [
-        "Unity.ML-Agents.Editor",
-        "Unity.ML-Agents",
-        "Unity.Barracuda",
-        "Unity.ML-Agents.CommunicatorObjects"
-    ],
-    "optionalUnityReferences": [
-        "TestAssemblies"
-    ],
-    "includePlatforms": [
-        "Editor"
-    ],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false,
-    "overrideReferences": true,
-    "precompiledReferences": [
-        "System.IO.Abstractions.dll",
-        "System.IO.Abstractions.TestingHelpers.dll"
-    ],
-    "autoReferenced": false,
-    "defineConstraints": [
-        "UNITY_INCLUDE_TESTS"
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:42c7d85f7824c8159f352e51e8dca6eb8f3a7ef934913af021b8c24faad36593
+size 644

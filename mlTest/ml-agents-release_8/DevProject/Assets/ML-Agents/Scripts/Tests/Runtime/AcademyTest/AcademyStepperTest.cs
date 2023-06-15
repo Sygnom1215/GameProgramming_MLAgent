@@ -1,36 +1,3 @@
-using System.Collections;
-using NUnit.Framework;
-using UnityEngine.TestTools;
-using UnityEngine;
-using UnityEngine.SceneManagement;
-using Unity.MLAgents;
-#if UNITY_EDITOR
-using UnityEditor.SceneManagement;
-#endif
-
-namespace Tests
-{
-    public class AcademyStepperTest
-    {
-        [SetUp]
-        public void Setup()
-        {
-            SceneManager.LoadScene("ML-Agents/Scripts/Tests/Runtime/AcademyTest/AcademyStepperTestScene");
-        }
-
-        /// <summary>
-        /// Verify in each update, the Academy is only stepped once.
-        /// </summary>
-        [UnityTest]
-        public IEnumerator AcademyStepperCleanupPasses()
-        {
-            var academy = Academy.Instance;
-            int initStepCount = academy.TotalStepCount;
-            for (var i = 0; i < 5; i++)
-            {
-                yield return new WaitForFixedUpdate();
-                Assert.True(academy.TotalStepCount - initStepCount == i + 1);
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:80e0cbb18f0f1e9996ea34ca934e8384424249afc1dfc5723704fde322c5d788
+size 966

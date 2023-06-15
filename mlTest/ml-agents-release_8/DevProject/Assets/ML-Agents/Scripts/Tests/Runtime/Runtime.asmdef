@@ -1,21 +1,3 @@
-﻿{
-    "name": "Runtime",
-    "references": [
-        "Unity.ML-Agents"
-    ],
-    "optionalUnityReferences": [
-        "TestAssemblies"
-    ],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false,
-    "overrideReferences": true,
-    "precompiledReferences": [
-        "System.IO.Abstractions.dll",
-        "System.IO.Abstractions.TestingHelpers.dll",
-        "Google.Protobuf.dll"
-    ],
-    "autoReferenced": false,
-    "defineConstraints": [
-        "UNITY_INCLUDE_TESTS"
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:25baca432a75a0f88787c11b75644ddbced970662d6a84c3e9267d93137b6205
+size 489

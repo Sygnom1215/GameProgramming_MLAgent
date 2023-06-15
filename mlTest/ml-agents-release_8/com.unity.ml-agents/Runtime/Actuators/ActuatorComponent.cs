@@ -1,24 +1,3 @@
-using UnityEngine;
-
-namespace Unity.MLAgents.Actuators
-{
-    /// <summary>
-    /// Editor components for creating Actuators. Generally an IActuator component should
-    /// have a corresponding ActuatorComponent.
-    /// </summary>
-    public abstract class ActuatorComponent : MonoBehaviour
-    {
-        /// <summary>
-        /// Create the IActuator.  This is called by the Agent when it is initialized.
-        /// </summary>
-        /// <returns>Created IActuator object.</returns>
-        public abstract IActuator CreateActuator();
-
-        /// <summary>
-        /// The specification of the Action space for this ActuatorComponent.
-        /// This must produce the same results as the corresponding IActuator's ActionSpec.
-        /// </summary>
-        /// <seealso cref="ActionSpec"/>
-        public abstract ActionSpec ActionSpec { get; }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d0a39d16fdea8ea235317cc48e0a267991b4b7307e75a2a95d8954a5a7ace2c
+size 859

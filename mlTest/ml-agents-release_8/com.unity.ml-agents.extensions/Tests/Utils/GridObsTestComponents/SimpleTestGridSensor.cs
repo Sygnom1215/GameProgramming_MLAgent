@@ -1,14 +1,3 @@
-using UnityEngine;
-using Unity.MLAgents.Extensions.Sensors;
-
-namespace Unity.MLAgents.Extensions.TestUtils.Sensors
-{
-    public class SimpleTestGridSensor : GridSensor
-    {
-        protected override float[] GetObjectData(GameObject currentColliderGo,
-            float type_index, float normalized_distance)
-        {
-            return (float[])currentColliderGo.GetComponent<GridSensorDummyData>().Data.Clone();
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b01cf2caffdef964c7e1052714a6b2286e72a6c02a71786aba90c20877bafe6
+size 434

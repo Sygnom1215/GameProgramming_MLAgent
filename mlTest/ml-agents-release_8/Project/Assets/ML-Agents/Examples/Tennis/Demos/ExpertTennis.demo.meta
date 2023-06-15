@@ -1,13 +1,3 @@
-fileFormatVersion: 2
-guid: 9676a67fc4a8d420aab12eb513a845a8
-ScriptedImporter:
-  internalIDToNameTable:
-  - first:
-      114: 11400000
-    second: Assets/ML-Agents/Examples/Tennis/Demos/ExpertTennis.demo
-  externalObjects: {}
-  serializedVersion: 2
-  userData: ' (Unity.MLAgents.Demonstrations.DemonstrationSummary)'
-  assetBundleName: 
-  assetBundleVariant: 
-  script: {fileID: 11500000, guid: 7bd65ce151aaa4a41a45312543c56be1, type: 3}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d0ea9afeb7be81c6efe1e6617335de9d613a5c9927e6bcf95b92a4bb2fb2cfcb
+size 437

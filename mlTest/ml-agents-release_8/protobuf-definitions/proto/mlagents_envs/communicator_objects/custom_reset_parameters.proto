@@ -1,7 +1,3 @@
-syntax = "proto3";
-
-option csharp_namespace = "Unity.MLAgents.CommunicatorObjects";
-package communicator_objects;
-
-message CustomResetParametersProto {
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ef5928aa423b9ad0a7189c1a6466f53ee12e040a0a72b5c27e4cab7742cf1c7
+size 154

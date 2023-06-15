@@ -1,19 +1,3 @@
-using UnityEngine;
-
-namespace Unity.MLAgents.Editor
-{
-    /// <summary>
-    /// A static helper class for the Editor components of the ML-Agents SDK.
-    /// </summary>
-    public static class EditorUtilities
-    {
-        /// <summary>
-        /// Whether or not properties that affect the model can be updated at the current time.
-        /// </summary>
-        /// <returns></returns>
-        public static bool CanUpdateModelProperties()
-        {
-            return !Application.isPlaying;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:29aadf293018d4e504a8da37a1dd0554cf32d1bfdf5b588e673304bb0e613323
+size 513

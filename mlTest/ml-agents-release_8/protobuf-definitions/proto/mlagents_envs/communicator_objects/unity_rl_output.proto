@@ -1,16 +1,3 @@
-syntax = "proto3";
-
-import "mlagents_envs/communicator_objects/agent_info.proto";
-
-option csharp_namespace = "Unity.MLAgents.CommunicatorObjects";
-package communicator_objects;
-
-message UnityRLOutputProto {
-    message ListAgentInfoProto {
-        repeated AgentInfoProto value = 1;
-    }
-    reserved 1; // deprecated bool global_done field
-    map<string, ListAgentInfoProto> agentInfos = 2;
-    bytes side_channel = 3;
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:cdd12e0488a3000fd72e825dad6b83ca4f70e495a8333d205c34ef3d1d1fce75
+size 425

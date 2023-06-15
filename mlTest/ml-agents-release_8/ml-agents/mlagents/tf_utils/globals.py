@@ -1,13 +1,3 @@
-from typing import Optional
-
-_rank: Optional[int] = None
-
-
-def get_rank() -> Optional[int]:
-    """
-    Returns the rank (in the MPI sense) of the current node.
-    For local training, this will always be None.
-    If this needs to be used, it should be done from outside ml-agents.
-    :return:
-    """
-    return _rank
+version https://git-lfs.github.com/spec/v1
+oid sha256:1b83c3c464e2f8c7c3bdff4a24276ea1e347f61249c89d9ad056e5fb9afb1c86
+size 321

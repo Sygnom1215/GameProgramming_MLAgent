@@ -1,7 +1,3 @@
-# Unity ML-Agents Toolkit Survey
-
-Your opinion matters a great deal to us. Only by hearing your thoughts on the
-Unity ML-Agents Toolkit can we continue to improve and grow. Please take a few
-minutes to let us know about it.
-
-[Fill out the survey](https://goo.gl/forms/qFMYSYr5TlINvG6f1)
+version https://git-lfs.github.com/spec/v1
+oid sha256:69c53b6174c20bf24407d1f452cb86e73641b5f92d8db19f999be8ec806af08a
+size 287

@@ -1,30 +1,3 @@
-using NUnit.Framework;
-using Unity.MLAgents.Actuators;
-using UnityEngine;
-using Unity.MLAgents.Policies;
-
-namespace Unity.MLAgents.Tests
-{
-    [TestFixture]
-    public class BehaviorParameterTests
-    {
-        static void DummyHeuristic(in ActionBuffers actionsOut)
-        {
-            // No-op
-        }
-
-        [Test]
-        public void TestNoModelInferenceOnlyThrows()
-        {
-            var gameObj = new GameObject();
-            var bp = gameObj.AddComponent<BehaviorParameters>();
-            bp.BehaviorType = BehaviorType.InferenceOnly;
-            var actionSpec = new ActionSpec();
-
-            Assert.Throws<UnityAgentsException>(() =>
-            {
-                bp.GeneratePolicy(actionSpec, DummyHeuristic);
-            });
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f3565aa6d8a25dc705ee2c5b435444895a6cbe4c5987e40469a813a3b288e2f
+size 767

@@ -1,15 +1,3 @@
-syntax = "proto3";
-
-import "mlagents_envs/communicator_objects/unity_output.proto";
-import "mlagents_envs/communicator_objects/unity_input.proto";
-import "mlagents_envs/communicator_objects/header.proto";
-
-option csharp_namespace = "Unity.MLAgents.CommunicatorObjects";
-package communicator_objects;
-
-message UnityMessageProto {
-    HeaderProto header = 1;
-    UnityOutputProto unity_output = 2;
-    UnityInputProto unity_input = 3;
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:f6f474354f9b9a22c0cb1f9c13748e682daac4ec0730444423f8faf83de5302f
+size 436

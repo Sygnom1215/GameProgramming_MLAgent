@@ -1,20 +1,3 @@
-{
-    "ignorePatterns": [
-        {
-            "pattern": "^http://localhost",
-            "comment": "Ignore local tensorboard links"
-        },
-        {
-            "pattern": "^https://developer.nvidia.com/compute/machine-learning/cudnn/secure",
-            "comment": "Requires login"
-        },
-        {
-            "pattern": "^https?://",
-            "comment": "Skip external links for fast runs."
-        },
-        {
-            "pattern": "mailto:",
-            "comment": "mailto checking broken"
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:313301705615d003953f91924c594735d8fee24bc6ca93e68d14ec1095533e50
+size 530

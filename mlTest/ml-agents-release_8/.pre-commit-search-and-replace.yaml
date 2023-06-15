@@ -1,8 +1,3 @@
-- description: Replace "ML agents toolkit", "ML-Agents toolkit" etc
-  search: /ML[ -]Agents toolkit/
-  replacement: ML-Agents Toolkit
-  insensitive: true
-- description: Replace "the the"
-  search: /the the/
-  replacement: the
-  insensitive: true
+version https://git-lfs.github.com/spec/v1
+oid sha256:ce3596b644a0f536804c4585f991dd1963bdb56d942824f155e8c5cfd76bfece
+size 246

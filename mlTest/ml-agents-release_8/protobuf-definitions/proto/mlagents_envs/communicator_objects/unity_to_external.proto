@@ -1,12 +1,3 @@
-syntax = "proto3";
-
-import "mlagents_envs/communicator_objects/unity_message.proto";
-
-option csharp_namespace = "Unity.MLAgents.CommunicatorObjects";
-package communicator_objects;
-
-service UnityToExternalProto {
-    // Sends the academy parameters
-    rpc Exchange(UnityMessageProto) returns (UnityMessageProto) {}
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:88261e2a8605a35a42bc840ffb00b312587c25ad9f13ce7fa008a05b71ca45a9
+size 318

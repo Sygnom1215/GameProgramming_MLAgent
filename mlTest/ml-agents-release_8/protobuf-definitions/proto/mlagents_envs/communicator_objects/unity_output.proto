@@ -1,15 +1,3 @@
-syntax = "proto3";
-
-import "mlagents_envs/communicator_objects/unity_rl_output.proto";
-import "mlagents_envs/communicator_objects/unity_rl_initialization_output.proto";
-
-option csharp_namespace = "Unity.MLAgents.CommunicatorObjects";
-package communicator_objects;
-
-message UnityOutputProto {
-    UnityRLOutputProto rl_output = 1;
-    UnityRLInitializationOutputProto rl_initialization_output = 2;
-
-    //More messages can be added here
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:718ff78ade800ab2fbf720f62e24d2a7a8e9904264831315253f3f15e41c7a99
+size 439

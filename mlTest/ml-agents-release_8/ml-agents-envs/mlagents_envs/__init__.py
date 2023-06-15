@@ -1,5 +1,3 @@
-# Version of the library that will be used to upload to pypi
-__version__ = "0.21.0"
-
-# Git tag that will be checked to determine whether to trigger upload to pypi
-__release_tag__ = "release_8"
+version https://git-lfs.github.com/spec/v1
+oid sha256:c63c900ed79b75138e202ce39a8676d613a598270d37e586ed98e9b58fa27243
+size 193

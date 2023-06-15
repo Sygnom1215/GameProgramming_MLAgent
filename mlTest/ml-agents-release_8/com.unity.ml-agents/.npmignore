@@ -1,20 +1,3 @@
-artifacts/**
-build/**
-.build_script/**
-node_modules/**
-Documentation/ApiDocs/**
-Documentation~/ApiDocs/**
-.DS_Store
-.npmrc
-.npmignore
-.gitignore
-CONTRIBUTING.md
-CONTRIBUTING.md.meta
-QAReport.md
-QAReport.md.meta
-.gitlab-ci.yml
-build.sh
-build.sh.meta
-build.bat
-build.bat.meta
-upm-ci.log
+version https://git-lfs.github.com/spec/v1
+oid sha256:d6df47114697c606e895abdd7242dc6315b9b43bb322350a68593e110d77095a
+size 285

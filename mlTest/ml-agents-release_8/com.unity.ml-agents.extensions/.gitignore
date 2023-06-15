@@ -1,16 +1,3 @@
-artifacts/**
-build/**
-.build_script/**
-node_modules/**
-.DS_Store
-.npmrc
-!Documentation~
-!.Documentation
-npm-debug.log
-build.sh.meta
-build.bat.meta
-.idea/
-
-# API Scraper output
-*.api
-*.api.meta
+version https://git-lfs.github.com/spec/v1
+oid sha256:fbb34658ec6e2c10c5714c28044810bfdf5569afbff036b90616621ade4213de
+size 192

@@ -1,23 +1,3 @@
-#!/usr/bin/env python3
-
-import argparse
-import subprocess
-
-if __name__ == "__main__":
-    # markdown-link-check doesn't support multiple files on the commandline, so this hacks around that.
-    # Note that you must install the package separately via npm. For example:
-    #  brew install npm; npm install -g markdown-link-check
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--check-remote", action="store_true")
-    parser.add_argument("files", nargs="*")
-    args = parser.parse_args()
-
-    config_file = (
-        "markdown-link-check.full.json"
-        if args.check_remote
-        else "markdown-link-check.fast.json"
-    )
-
-    for f in args.files:
-        subprocess_args = ["markdown-link-check", "-c", config_file, f]
-        subprocess.check_call(subprocess_args)
+version https://git-lfs.github.com/spec/v1
+oid sha256:4d1380c6ad724efcfe7e4f6ad5340fc4c0ba30405a311e664b43a57371a56a54
+size 791

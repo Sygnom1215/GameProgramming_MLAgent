@@ -1,11 +1,3 @@
-fileFormatVersion: 2
-guid: 8cbae6de45ea44d0c97366e252052722
-ScriptedImporter:
-  fileIDToRecycleName:
-    11400000: main obj
-    11400002: model data
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-  script: {fileID: 11500000, guid: 19ed1486aa27d4903b34839f37b8f69f, type: 3}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a7b8e8723df793efec6a47e1346fd5fd6fa79162996a9ae58fd35279c4dbb9e9
+size 305

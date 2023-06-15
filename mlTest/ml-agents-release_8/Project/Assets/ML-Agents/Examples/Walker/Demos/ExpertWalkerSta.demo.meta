@@ -1,13 +1,3 @@
-fileFormatVersion: 2
-guid: 1f3a5d62e6aea4b5eb053ac33f11b06d
-ScriptedImporter:
-  internalIDToNameTable:
-  - first:
-      114: 11400002
-    second: Assets/ML-Agents/Examples/Walker/Demos/ExpertWalkerSta.demo
-  externalObjects: {}
-  serializedVersion: 2
-  userData: ' (Unity.MLAgents.Demonstrations.DemonstrationSummary)'
-  assetBundleName: 
-  assetBundleVariant: 
-  script: {fileID: 11500000, guid: 7bd65ce151aaa4a41a45312543c56be1, type: 3}
+version https://git-lfs.github.com/spec/v1
+oid sha256:79ca50172cd98e85a3d5112a2117797b9fe0559c16819b53a272f4f2c6277970
+size 440

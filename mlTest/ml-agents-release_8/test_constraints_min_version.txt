@@ -1,7 +1,3 @@
-# pip constraints to use the *lowest* versions allowed in ml-agents/setup.py
-grpcio==1.11.0
-numpy==1.14.1
-Pillow==4.2.1
-protobuf==3.6
-tensorflow==1.14.0
-h5py==2.9.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:120876629934c1baa518b19ef14250844e5451c31af21c19b7d926789b7bef74
+size 165

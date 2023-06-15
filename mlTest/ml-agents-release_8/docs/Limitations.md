@@ -1,8 +1,3 @@
-# Limitations
-
-See the package-specific Limitations pages:
-
-- [`com.unity.mlagents` Unity package](../com.unity.ml-agents/Documentation~/com.unity.ml-agents.md#known-limitations)
-- [`mlagents` Python package](../ml-agents/README.md#limitations)
-- [`mlagents_envs` Python package](../ml-agents-envs/README.md#limitations)
-- [`gym_unity` Python package](../gym-unity/README.md#limitations)
+version https://git-lfs.github.com/spec/v1
+oid sha256:074e62597898e325da59261a4da5bcb641187fe1b49b907285adc36d547875cc
+size 388

@@ -1,19 +1,3 @@
-namespace Unity.MLAgents.Sensors.Reflection
-{
-    /// <summary>
-    /// Sensor that wraps a float field or property of an object, and returns
-    /// that as an observation.
-    /// </summary>
-    internal class FloatReflectionSensor : ReflectionSensorBase
-    {
-        public FloatReflectionSensor(ReflectionSensorInfo reflectionSensorInfo)
-            : base(reflectionSensorInfo, 1)
-        { }
-
-        internal override void WriteReflectedField(ObservationWriter writer)
-        {
-            var floatVal = (System.Single)GetReflectedValue();
-            writer[0] = floatVal;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d6652ccf28605056e58c45b070d19bcf5f7e011445a3ff637bea4f83f1df87f
+size 602

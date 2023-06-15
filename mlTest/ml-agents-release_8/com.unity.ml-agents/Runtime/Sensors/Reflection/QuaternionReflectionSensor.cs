@@ -1,19 +1,3 @@
-namespace Unity.MLAgents.Sensors.Reflection
-{
-    /// <summary>
-    /// Sensor that wraps a quaternion field or property of an object, and returns
-    /// that as an observation.
-    /// </summary>
-    internal class QuaternionReflectionSensor : ReflectionSensorBase
-    {
-        public QuaternionReflectionSensor(ReflectionSensorInfo reflectionSensorInfo)
-            : base(reflectionSensorInfo, 4)
-        { }
-
-        internal override void WriteReflectedField(ObservationWriter writer)
-        {
-            var quatVal = (UnityEngine.Quaternion)GetReflectedValue();
-            writer.Add(quatVal);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:957129cac98cdec1389ca6d296abab27a0749a8eb63752b17085f56981514b70
+size 624
